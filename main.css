@@ -1,0 +1,30 @@
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.todoHead {
+    margin-top: 6%;
+}
+.todo {
+    margin-top: 3%;
+}
+.completed {
+    text-decoration: line-through;
+    pointer-events: none;
+    opacity: 0.6;
+}
+.list-style {
+    list-style-type: none;
+    border: 1px solid rgb(219, 219, 219);
+    height: 2em;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+.del-style {
+    float: right;
+    height: 100%;
+}
+.center {
+    margin: auto;
+    justify-content: center;
+}
+

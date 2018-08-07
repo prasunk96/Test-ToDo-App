@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>
+            My App
+        </title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row center">
+                <div class="col-md-4 todoHead" align="center">
+                    <h2>TO-DO List</h2>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-md-4 todo">
+                    <div class="input-group mb-3">
+                        <input id="item" type="text" class="form-control" placeholder="Add Item" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                            <button id="addNewItem" class="btn btn-outline-secondary" type="button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <ul id="items" class="list-group list-group-flush">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript"src="main.js"></script>
+    </body>
+</html>
